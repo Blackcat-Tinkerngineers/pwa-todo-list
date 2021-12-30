@@ -6,9 +6,6 @@ Features include colored blocks of past, present & tentative timeslots also bein
 
 https://blackcat-tinkerngineers.github.io/work-day-planner/
 
-[Back To The Top]
-
-
 ## License
 MIT License
 
@@ -32,10 +29,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Back To The Top]
-
 ## Author Info
 
 Linkedin - [chelsiebgonsalves](https://www.linkedin.com/in/chelsiebgonsalves/)
 
-[Back To The Top]
