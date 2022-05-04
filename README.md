@@ -15,7 +15,7 @@
 
   <p></p>
 
-A super-simple application that will hopefully remind you (no promises) to feed your cat or what time to leave for work.
+<p>A super-simple application that will hopefully remind you (no promises) to feed your cat or what time to leave for work.</p>
 Application rebuilt with walkthrough guide via <a href="https://blog.openreplay.com/building-a-mobile-app-using-html-css-and-javascript">https://blog.openreplay.com/building-a-mobile-app-using-html-css-and-javascript</a>
 
 ## Image Demo
