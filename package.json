@@ -1,0 +1,28 @@
+{
+  "name": "pwa-todo-list",
+  "version": "1.0.0",
+  "description": "<div id=\"top\"></div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blackcat-Tinkerngineers/work-day-planner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blackcat-Tinkerngineers/work-day-planner/issues"
+  },
+  "homepage": "https://github.com/Blackcat-Tinkerngineers/work-day-planner#readme",
+  "dependencies": {
+    "@openreplay/tracker": "^3.5.10",
+    "dexie": "^3.2.2",
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "vlq": "^2.0.4"
+  }
+}
