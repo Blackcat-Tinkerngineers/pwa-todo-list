@@ -13,6 +13,16 @@
   <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 
+<script>
+  // Check that service workers are supported
+  if ("serviceWorker" in navigator) {
+    // Use the window load event to keep the page load performant
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./sw.js");
+    });
+  }
+  </script>
+
 <body>
   <header class="jumbotron">
     <h1 class="display-2">Todo List</h1>
@@ -105,8 +115,10 @@
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://unpkg.com/dexie/dist/dexie.js"></script>
 
   <script src="./assets/js/index.js"></script>
+  <script src="./assets/js/dexie.js"></script>
 </body>
 
 </html>

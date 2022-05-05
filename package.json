@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Blackcat-Tinkerngineers/work-day-planner#readme",
   "dependencies": {
-    "@openreplay/tracker": "^3.5.10"
+    "@openreplay/tracker": "^3.5.10",
+    "dexie": "^3.2.2"
   }
 }
