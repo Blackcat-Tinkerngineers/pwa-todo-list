@@ -2,7 +2,6 @@
 package-lock.json
 node_modules
 
-/*service workers*/
 sw.js
 sw.js.map
 workbox-config.js
