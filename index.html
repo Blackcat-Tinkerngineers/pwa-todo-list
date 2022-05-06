@@ -15,30 +15,17 @@
   <script src="https://unpkg.com/dexie/dist/dexie.js"></script>
 </head>
 
-<script>
-  // Check that service workers are supported
-  if ("serviceWorker" in navigator) {
-    // Use the window load event to keep the page load performant
-    window.addEventListener("load", () => {
-      navigator.serviceWorker.register("./sw.js");
-    });
-  }
-  </script>
-
 <body>
   <header class="jumbotron">
-    <form id="new-task-form">
-    <h1 class="display-2">Todo List
+    <h2 class="display-6">Todo List
       <p class="lead text-muted font-weight-light">A super-simple application that will hopefully remind you (no
-        promises) to feed your cat or what time to leave for work.</p>
-      <h1 class="display-6 text-secondar">Today's date:
+        promises) to feed your cat or what time to leave for work. </p>
+      <h1 class="display-6">Today's date: </h1>
       <p id="currentDay" class="lead display-6">
-      </p>
-      </h1>
-    </form>
+      </p>  
+    </h2>
   </header>
-
-  <main>
+  
       <div id="tasks" class="container">
         <div id="hour-09" class="row time-div time-block">
           <div class="col-md-1 hour">
@@ -113,9 +100,13 @@
           <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
       </div>
-    </header>
-  </main>
 
+
+    <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <!--React script end-->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <script src="./assets/js/index.js"></script>
