@@ -35,6 +35,13 @@ $(document).ready(function () {
     $("#hour-15").children('textarea').val(localStorage.getItem("15"));
     $("#hour-16").children('textarea').val(localStorage.getItem("16"));
     $("#hour-17").children('textarea').val(localStorage.getItem("17"));
+    $("#hour-18").children('textarea').val(localStorage.getItem("18"));
+    $("#hour-19").children('textarea').val(localStorage.getItem("19"));
+    $("#hour-20").children('textarea').val(localStorage.getItem("20"));
+    $("#hour-21").children('textarea').val(localStorage.getItem("21"));
+    $("#hour-22").children('textarea').val(localStorage.getItem("22"));
+    $("#hour-23").children('textarea').val(localStorage.getItem("23"));
+    $("#hour-24").children('textarea').val(localStorage.getItem("24"));
   });
   
   

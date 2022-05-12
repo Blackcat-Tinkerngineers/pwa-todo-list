@@ -29,15 +29,10 @@
     "@emotion/styled": "^11.8.1",
     "@next/eslint-plugin-next": "^12.1.6",
     "@openreplay/tracker": "^3.5.10",
-    "dexie": "^3.2.2",
+    "bulma": "^0.9.4",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.5.0",
-    "framer-motion": "^6.3.3",
-    "next": "^12.1.6",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-router-dom": "^6.3.0",
-    "vlq": "^2.0.4"
+    "framer-motion": "^6.3.3"
   },
   "devDependencies": {
     "eslint": "8.14.0",
