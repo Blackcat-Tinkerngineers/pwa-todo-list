@@ -29,15 +29,18 @@
       <p class="subtitle is-4 lead text-muted font-weight-light">A super-simple application that will hopefully remind you (no
         promises) to feed your cat or what time to leave for work. </p>
         <br>
-      <h1 class="title is-2">Today's Date: </h1>
-      <p id="currentDay" class="subtitle is-4">
-      <h2 class="title is-2">Current Time: </h2>  
-      <p id="currentTime" class="subtitle is-4">
-      </p>  
-    </h2>
+       <div class="columns">
+      <div class="column title is-4">Today's Date: </div>
+      <p id="currentDay" class="column subtitle is-5">
+        </p>
+      <div class="column title is-4">Current Time: </div>
+      <p id="currentTime" class="column subtitle is-5">
+      </p> 
+    </div>
   </header>
 
   <main>
+    <section class="section">
       <div id="tasks" class="container">
         <div id="hour-09" class="row time-div time-block">
           <div class="col-md-1 hour">
@@ -172,7 +175,19 @@
     </div>
   </div>
 </div>
+</section>
   </main>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Made with ❤️</strong> by <a href="#">Chelsie L. Bangloy-Gonsalves/Blackcat-Tinkernigneer's</a>. 
+        <br>
+        The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+    </div>
+    <!--add social media icons here-->
+  </footer>
 
 
   <!--Load React-->
