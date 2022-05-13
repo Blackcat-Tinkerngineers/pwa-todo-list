@@ -2,7 +2,9 @@ $(document).ready(function () {
 
     let NowMoment = moment().format("MMMM Do YYYY");
     let displayDate = document.getElementById("currentDay");
+    let displayTime = document.getElementById("currentTime");
     displayDate.innerHTML = NowMoment;
+    displayTime.innerHTML = moment().format("h:mm:ss a");
     let currentHour = moment().format("HH");
   
     $(".time-div").each(function () {

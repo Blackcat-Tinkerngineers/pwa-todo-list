@@ -16,19 +16,28 @@ body {
 
 .navbar {
   background-color: var(--dark) !important;
-  border-bottom: solid #000000 1px;
+  border-bottom: solid #000000 1.5px;
+  padding: 0.1px 0.1px 0.1px 0.1px;
+  margin: 3px 3px 3px 3px;
 }
 
 span {
-  color: #aa574b;
+  color: #000;
 
 }
 .navbar-item img {
   position: relative;
   background: no-repeat;
-  width: 170px;
-  left: 55px;
+  width: 100px;
+  left: 20px;
   background-size: contain;
+  max-height: 100%;
+  max-width: 100%;
+  margin: 3px 3px 3px 3px;
+}
+
+.navbar-item{
+  padding: 0.1px 0.5px !important;
 }
 
 .navbar-brand {

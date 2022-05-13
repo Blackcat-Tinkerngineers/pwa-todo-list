@@ -3,24 +3,24 @@
     short_name: "Todo",
     icons: [
       {
-        src: "./assets/icon-100.png",
+        src: "./assets/images/icon.svg",
         sizes: "100x100",
-        type: "image/png",
+        type: "image/svg",
       },
       {
-        src: "./assets/icon-150.png",
+        src: "./assets/images/icon.svg",
         sizes: "150x150",
-        type: "image/png",
+        type: "image/svg",
       },
       {
-        src: "./assets/icon-250.png",
+        src: "./assets/images/icon.svg",
         sizes: "250x250",
-        type: "image/png",
+        type: "image/svg",
       },
       {
-        src: "./assets/icon-500.png",
+        src: "./assets/images/icon.svg",
         sizes: "500x500",
-        type: "image/png",
+        type: "image/svg",
       },
     ],
     theme_color: "#FFFFFF",
